@@ -3,3 +3,7 @@ Theme Name: Blogs theme
 Author: me
 version: 1.0.0
 */
+
+body{
+    color: orange;
+}
