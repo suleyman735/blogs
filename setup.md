@@ -22,3 +22,20 @@
       <?php
         
     }  ?>
+
+
+  4. archive 
+    <?php if (is_category()) {
+           single_cat_title();
+        }
+
+        if (is_author()) {
+            echo 'Posts by '; the_author();
+            # code...
+        }
+        
+        ?>
+
+        or 
+        the_archive_title()
+5. mu-plugins directory. save post types there for security

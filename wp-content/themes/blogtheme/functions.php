@@ -27,4 +27,6 @@ function blog_features() {
 
 add_action( 'after_setup_theme', 'blog_features' );
 
+
+
 ?>
